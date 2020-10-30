@@ -1,0 +1,48 @@
+Algoritmo Avance_Evidencia_2
+	Escribir "Por favor ingresar una contraseña"
+	Leer entrada
+	Escribir entrada
+	contraseña<-"hernan"
+	si contraseña Es Igual A entrada
+		Escribir "Acceso correcto"
+	FinSi
+	Hacer
+		Escribir "Selecciona una opcion"
+		Escribir "1 Alta Doctores"
+		Escribir "2 Alta Pacientes"
+		Escribir "3 Crear Cita"
+		Escribir "4 Relacionar Cita"
+	leer opc
+	Segun opc Hacer
+		1:
+			Escribir "Ingresar ID"
+			Leer id
+			Escribir "Ingresar nombre"
+			Leer nombre
+			Escribir "Ingresar especialidad"
+			leer esp
+		2:
+			Escribir "Ingresar ID"
+			leer id
+			Escribir "Ingresar nombre"
+			leer nombre
+		3:
+			Escribir "Ingresar ID"
+			leer id
+			Escribir "Ingresar fecha"
+			leer fecha
+			Escribir "Ingresar hora"
+			leer hora
+			Escribir "Ingresar motivo"
+			leer motivo
+		4:
+			Escribir "Seleccionar cita"
+			leer cita
+			Escribir "Seleccionar doctor"
+			leer doctor
+			Escribir "Se ha relacionado correctamente"
+	Fin Segun
+	Escribir "¿Desea finalizar 1si 2no?"
+	leer finalizar
+	Hasta Que finalizar Es Igual A 1
+FinAlgoritmo
